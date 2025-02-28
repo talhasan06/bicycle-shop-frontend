@@ -1,0 +1,69 @@
+.gradient-button {
+  background: linear-gradient(45deg, #3498db, #2ecc71) !important;
+  border: none !important;
+  height: 48px !important;
+  padding: 0 32px !important;
+  font-size: 16px !important;
+  transition: all 0.3s ease !important;
+}
+
+.gradient-button:hover {
+  background: linear-gradient(45deg, #2980b9, #27ae60) !important;
+  opacity: 0.95;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.gradient-button:active {
+  transform: translateY(0);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.gradient-text {
+  background: linear-gradient(45deg, #3498db, #2ecc71);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 16px;
+}
+
+.gradient-background {
+  background: linear-gradient(45deg, #3498db, #2ecc71);
+  color: white;
+}
+
+.ant-card {
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+}
+
+.ant-card-hoverable:hover {
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.12);
+}
+
+.section-title {
+  font-size: 36px !important;
+  font-weight: 600 !important;
+  background: linear-gradient(45deg, #3498db, #2ecc71);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 16px !important;
+}
+
+.footer-link {
+  color: rgba(0, 0, 0, 0.65);
+  transition: color 0.3s;
+}
+
+.footer-link:hover {
+  color: #3498db;
+}
+
+.social-link {
+  color: rgba(0, 0, 0, 0.65);
+  transition: all 0.3s;
+}
+
+.social-link:hover {
+  color: #3498db;
+  transform: translateY(-2px);
+}

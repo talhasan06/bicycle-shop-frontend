@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.gradient-button {
+  background: linear-gradient(45deg, #3498db, #2ecc71);
+  border: none;
+  height: 48px;
+  padding: 0 32px;
+  font-size: 16px;
+}
