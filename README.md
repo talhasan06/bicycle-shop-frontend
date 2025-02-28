@@ -68,7 +68,7 @@ Wheel X is an online bicycle store offering a wide range of bicycles for purchas
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/wheel-x.git
+   git clone git@github.com:talhasan06/bicycle-shop-frontend.git
    ```
 2. Navigate to the project directory:
    ```bash
